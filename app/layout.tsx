@@ -9,10 +9,10 @@ import '@fontsource/jetbrains-mono/400.css';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Lohitha Damisetti · Unmasked · Full Stack Developer',
+  title: 'Manojkumar D · Unmasked · Full Stack MERN Developer',
   description: "Everyone wanted to know what's under the mask. Scroll to play the episode.",
   openGraph: {
-    title: 'Kakashi: Unmasked',
+    title: 'Kakashi: Unmasked · Manojkumar D',
     description: "What's under the mask? Scroll to play.",
     images: ['/stills/face.jpg'],
   },

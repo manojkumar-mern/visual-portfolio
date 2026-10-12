@@ -9,8 +9,8 @@ Scroll to play the scene, stop and time stops with you, scroll up to rewind. Red
 
 1. **Clone it**
    ```bash
-   git clone https://github.com/lohithadamisetti123/Lohitha-s-Anime-Portfolio.git
-   cd Lohitha-s-Anime-Portfolio
+   git clone https://github.com/manojkumar-mern/anime_portfolio.git
+   cd anime_portfolio
    ```
 2. **Install & run**
    ```bash
@@ -25,6 +25,6 @@ Scroll to play the scene, stop and time stops with you, scroll up to rewind. Red
 ---
 I really hope this helps you land something amazing. ✨
 
-— Lohitha
+— Manojkumar D
 
 <sub>Built with Next.js, Framer Motion, Lenis and a little WebGL. The anime character is fan art for a personal portfolio — use your own artwork if you publish commercially.</sub>

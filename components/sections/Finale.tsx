@@ -27,12 +27,12 @@ function Magnetic({ href, children, primary }: { href: string; children: React.R
 const ROLL = [
   ['Written & Directed by', PROFILE.realName],
   ['Lead Role', PROFILE.role],
-  ['Frontend', 'React.js · React Native · Tailwind CSS'],
-  ['Backend', 'Node.js · Express.js · Spring Boot · Go'],
-  ['Data', 'MongoDB · PostgreSQL · Redis'],
+  ['Frontend', 'React.js · HTML5 · CSS3 · Tailwind CSS'],
+  ['Backend', 'Node.js · Express.js · REST APIs · n8n'],
+  ['Data', 'MongoDB · Mongoose'],
   ['Featuring', EPISODES.map((e) => e.name).join(' · ')],
-  ['Training Arc', 'Technical Hub Pvt Ltd'],
-  ['Filmed at', 'Aditya College of Engineering and Technology'],
+  ['Experience', 'Ethiroli Pvt. Ltd.'],
+  ['Alma Mater', 'Sengunthar Arts & Science College'],
 ];
 
 export default function Finale() {
@@ -49,7 +49,7 @@ export default function Finale() {
           </span>
         ))}
       </motion.h2>
-      <p className="fin-sub">Open to full-stack roles, internships and hackathon squads. The next mission starts with one message.</p>
+      <p className="fin-sub">Open to full-stack roles, client projects and workflow automations. The next mission starts with one message.</p>
       <div className="fin-links">
         <Magnetic href={`mailto:${PROFILE.email}`} primary>
           {PROFILE.email}
